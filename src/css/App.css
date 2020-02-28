@@ -13,12 +13,16 @@ body {
 }
 header {
   margin: 30px 0;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  color: transparent; 
+
 }
 .contenido {
   padding:20px;
 }
 .contenido-principal {
-  background-color: white;
+  background-color:rgb(255, 255, 255);
+   opacity:0.9; /* Opacidad 60% */
   padding: 30px;
   border-radius: 20px;
 }
@@ -42,7 +46,7 @@ h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  color:#004e92;
+  color:#000000;
   margin-bottom:30px;
   font-size:3rem!important;
   text-align: center;
@@ -83,7 +87,7 @@ h2 {
 .gastos-realizados li{
   list-style: none;
   margin-bottom: 0rem;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #ffffff;
   padding: 1rem 0;
 }
 .gastos-realizados li:last-of-type {

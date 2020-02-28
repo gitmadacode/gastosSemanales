@@ -72,7 +72,7 @@ class App extends Component{
   render(){
   return (
     <div className="App container">
-      <Header
+      <Header 
          titulo="Gastos por semana"
       />
       <div className="contenido-principal contenido">
